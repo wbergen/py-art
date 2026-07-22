@@ -354,7 +354,7 @@ def safe_rectangle(xy, fill=None):
 	draw.rectangle([(x0, y0), (x1, y1)], fill)
 
 t_bbox = draw.textbbox((0, 0), text, font=font)
-t_w, t_h = t_bbox[2] - t_bbox[0], t_bbox[3] - t_bbox[1]
+t_w, t_h = t_bbox[2], t_bbox[3]
 font_center = ((width-t_w)//2, (height - t_h)//2)
 
 # Get the pixels:
