@@ -1,0 +1,5 @@
+*.png
+__pycache__/
+*.pyc
+colors_raw.txt
+color_extraction/
